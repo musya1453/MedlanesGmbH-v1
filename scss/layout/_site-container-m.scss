@@ -1,0 +1,5 @@
+.site-container {
+  width: 100%;
+  margin: 0 auto;
+  @include clear-box();
+}

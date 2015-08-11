@@ -1,0 +1,46 @@
+.site-header {
+  background-color: #f7f7f7;
+  box-shadow: 0 0 14px 0px #000;
+  z-index: 1001;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  &.header-fixed {
+    position: fixed;
+
+    .logo {
+      width: 30px;
+    }
+
+    .btn-wrap{
+      margin-top: 3px;
+    }
+  }
+
+  .site-container {
+    padding: 4px 0;
+  }
+
+  .logo {
+    float: left;
+
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .btn-wrap {
+    float: right;
+    margin-top: 40px;
+    z-index: 2000;
+
+    a {
+      margin-right: 10px;
+      min-width: 110px;
+      text-align: center;
+    }
+  }
+}

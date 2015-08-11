@@ -1,0 +1,39 @@
+@import "compass";
+//base styles
+@import "common/mixins";
+@import "common/fonts";
+@import "common/settings";
+@import "common/normalize";
+@import "common/helpers";
+@import "common/defaults";
+//forms
+@import "forms/forms";
+//layout
+
+@import "layout/wrappers";
+
+@import "layout/footer";
+@import "layout/form-styler";
+
+//blocks
+
+//pages
+
+@media (max-width: 767px) {
+  @import "layout/header-s";
+  @import "layout/site-container-m";
+  @import "layout/content-s";
+}
+
+@media (min-width: 768px) and (max-width: 989px) {
+  @import "layout/header";
+  @import "layout/content-m";
+  @import "layout/site-container-m";
+}
+
+@media (min-width: 990px) {
+  @import "layout/header";
+  @import "layout/content";
+  @import "layout/site-container";
+
+}
