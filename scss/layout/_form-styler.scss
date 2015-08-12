@@ -7,8 +7,7 @@
   border: 1px solid #C3C3C3;
   border-radius: 3px;
   background: #F5F5F5;
-  background: -webkit-linear-gradient(#FFF, #E6E6E6);
-  background: linear-gradient(#FFF, #E6E6E6);
+  @include background-image(linear-gradient(#FFF, #E6E6E6));
   box-shadow: 0 1px 1px rgba(0, 0, 0, .05), inset -1px -1px #FFF, inset 1px -1px #FFF;
   cursor: pointer;
 }
@@ -27,7 +26,7 @@
 }
 
 .jq-checkbox.disabled {
-  opacity: .55;
+ @include opacity( .55);
 }
 
 .jq-radio {
@@ -59,7 +58,7 @@
 }
 
 .jq-radio.disabled {
-  opacity: .55;
+  @include opacity( .55);
 }
 
 .jq-file {
