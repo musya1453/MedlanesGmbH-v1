@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae4e0b41-5ae3-447f-8c6e-f5209d5eaca4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/e29965d1aacb5aaf3cee6af2b421e57003ece602/_form-styler.scssc" afterPath="$PROJECT_DIR$/.sass-cache/e29965d1aacb5aaf3cee6af2b421e57003ece602/_form-styler.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/layout/_form-styler.scss" afterPath="$PROJECT_DIR$/scss/layout/_form-styler.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/css/styles.css" afterPath="$PROJECT_DIR$/theme/css/styles.css" />
     </list>
     <ignored path="MedlanesGmbH.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,7 +49,7 @@
       <file leaf-file-name="_form-styler.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/layout/_form-styler.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="23" selection-start="626" selection-end="626" vertical-scroll-proportion="0.21794872" vertical-offset="357" max-vertical-offset="10030">
+            <state line="60" column="25" selection-start="1297" selection-end="1297" vertical-scroll-proportion="-8.78022" vertical-offset="5814" max-vertical-offset="10030">
               <folding />
             </state>
           </provider>
@@ -291,10 +293,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3279396" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3279396" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -637,7 +639,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/layout/_form-styler.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="23" selection-start="626" selection-end="626" vertical-scroll-proportion="0.21794872" vertical-offset="357" max-vertical-offset="10030">
+        <state line="60" column="25" selection-start="1297" selection-end="1297" vertical-scroll-proportion="-8.78022" vertical-offset="5814" max-vertical-offset="10030">
           <folding />
         </state>
       </provider>
