@@ -116,7 +116,7 @@
     width: 238px;
     height: 178px;
     background: image-url('tmp/warning.png');
-    background-size: cover;
+    @include background-size(cover);
     font-size: 21px;
     color: #fff;
     font-family: $lato-light;

@@ -1217,6 +1217,9 @@ input[type='submit'].styler[disabled] {
     width: 238px;
     height: 178px;
     background: url('../images/tmp/warning.png');
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
     background-size: cover;
     font-size: 21px;
     color: #fff;
@@ -1475,6 +1478,9 @@ input[type='submit'].styler[disabled] {
     width: 300px;
     height: 224px;
     background: url('../images/tmp/warning.png');
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
     background-size: cover;
     font-size: 28px;
     color: #fff;
