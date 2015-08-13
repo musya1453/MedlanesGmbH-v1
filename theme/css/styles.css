@@ -538,6 +538,8 @@ img[style*="left"] {
   margin: 3px 0 0 3px;
   border-radius: 50%;
   background: #777;
+  -moz-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.7);
   box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.7);
 }
 

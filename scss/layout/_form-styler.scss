@@ -26,7 +26,7 @@
 }
 
 .jq-checkbox.disabled {
- @include opacity( .55);
+  @include opacity(.55);
 }
 
 .jq-radio {
@@ -50,7 +50,7 @@
   margin: 3px 0 0 3px;
   border-radius: 50%;
   background: #777;
-  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .7);
+  @include box-shadow(inset 1px 1px 1px rgba(0, 0, 0, .7));
 }
 
 .jq-radio.focused {
@@ -58,7 +58,7 @@
 }
 
 .jq-radio.disabled {
-  @include opacity( .55);
+  @include opacity(.55);
 }
 
 .jq-file {
